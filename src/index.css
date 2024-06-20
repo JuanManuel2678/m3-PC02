@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+}
+
+.Navbar {
+  padding: 40px;
+  margin: 20px;
+  text-align:center;
+  height: 250px;
+  letter-spacing: 1px;
+}
+
+.h1 {
+  font-weight: 100;
+  font-size: 30px;
+  color: rgb(171, 165, 165);
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+.Navbar .Nav-text {
+  font-size: 18px;
+  font-weight:300 ;
+  color: rgba(128, 128, 128, 0.6);
+}
+
+.list_container {
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-content: center;
+
+}
+.container  {
+  width: 384px;
+  height: 294px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5%;
+  border-top: solid rgb(193, 11, 11) .3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: grid;
+}
+
+.container  h1 {
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight:400 ;
+  color: rgba(106, 97, 97, 0.6);
+}
+.container > figure {
+  display: flex;
+  align-items:center;
+}
+
+.container > figure img {
+  position: relative;
+  left: 270px;
+  width: 1.8rm;
+}
+
+.team_builder {
+  border-top: solid rgb(193, 11, 11) .3rem;
+}
+
+.supervisor {
+  border-top: solid rgb(13, 216, 206) .3rem;
+}
+
+.karma {
+  border-top: solid rgb(247, 173, 15) .3rem;
+}
+
+.calculator {
+  border-top: solid rgb(8, 130, 218) .3rem;
+}
+
+
+
+
